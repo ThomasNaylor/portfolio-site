@@ -52,8 +52,6 @@ import CoinDeskApi from '@/components/Projects/CoinDeskApi.vue';
 import WeatherMan from '@/components/Projects/WeatherMan.vue';
 import Dreamshare from '@/components/Projects/Dreamshare.vue';
 import WeatherAppGui from '@/components/Projects/WeatherAppGui.vue';
-import TicTacToe from '@/components/Projects/TicTacToe.vue';
-import ToDo from '@/components/Projects/ToDo.vue';
 
 
 import spacestation from '@/assets/spacestation/img/spacestation.jpg';
@@ -74,8 +72,6 @@ export default {
         { title: 'Quote Machine', project: 'QuoteMachine', img: quoteimg, chips: ['HTML', 'CSS', 'JavaScript'] },
         { title: 'Dreamshare', project: 'Dreamshare', img: dreamshareimg, chips: ['HTML', 'Bootstrap', 'CSS', 'JavaScript'] },
         { title: 'Weather App GUI', project: 'WeatherAppGui', img: weatherappimg, chips: ['HTML', 'CSS'] }
-        // { title: 'TicTacToe', project: 'TicTacToe', img: 'https://cdn.vuetifyjs.com/images/cards/kitchen.png' },
-        // { title: 'ToDo', project: 'ToDo', img: 'https://cdn.vuetifyjs.com/images/cards/kitchen.png' }
       ]
     }
   },
@@ -86,9 +82,7 @@ export default {
     CoinDeskApi,
     WeatherMan,
     Dreamshare,
-    WeatherAppGui,
-    TicTacToe,
-    ToDo
+    WeatherAppGui
   }
 }
 </script>
